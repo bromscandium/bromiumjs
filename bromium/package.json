@@ -1,0 +1,62 @@
+{
+  "name": "bromium",
+  "version": "1.0.0",
+  "description": "BromiumJS - A modern JavaScript framework with proxy-based reactivity, JSX, and file-based routing",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./jsx-runtime": {
+      "import": "./dist/jsx-runtime.js",
+      "types": "./dist/jsx-runtime.d.ts"
+    },
+    "./jsx-dev-runtime": {
+      "import": "./dist/jsx-runtime.js",
+      "types": "./dist/jsx-runtime.d.ts"
+    },
+    "./vite-plugin": {
+      "import": "./dist/vite-plugin.js",
+      "types": "./dist/vite-plugin.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@bromium/core": "^1.0.0",
+    "@bromium/runtime": "^1.0.0",
+    "@bromium/router": "^1.0.0"
+  },
+  "peerDependencies": {
+    "vite": "^5.0.0 || ^6.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vite": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@bromium/vite-plugin": "^1.0.0",
+    "typescript": "^5.3.0"
+  },
+  "keywords": [
+    "bromium",
+    "bromiumjs",
+    "framework",
+    "reactive",
+    "jsx",
+    "frontend"
+  ],
+  "author": "",
+  "license": "MIT"
+}

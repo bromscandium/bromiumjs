@@ -1,0 +1,32 @@
+{
+  "name": "bromiumjs-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BromiumJS Framework Monorepo",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "bromium"
+  ],
+  "scripts": {
+    "build": "npm run build:core && npm run build:runtime && npm run build:router && npm run build:vite-plugin && npm run build:bromium",
+    "build:core": "cd packages/core && npm run build",
+    "build:runtime": "cd packages/runtime && npm run build",
+    "build:router": "cd packages/router && npm run build",
+    "build:vite-plugin": "cd packages/vite-plugin && npm run build",
+    "build:bromium": "cd bromium && npm run build",
+    "dev": "npm run dev:core & npm run dev:runtime & npm run dev:router & npm run dev:vite-plugin & npm run dev:bromium",
+    "dev:core": "cd packages/core && npm run dev",
+    "dev:runtime": "cd packages/runtime && npm run dev",
+    "dev:router": "cd packages/router && npm run dev",
+    "dev:vite-plugin": "cd packages/vite-plugin && npm run dev",
+    "dev:bromium": "cd bromium && npm run dev",
+    "clean": "rimraf packages/*/dist bromium/dist",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "rimraf": "^6.1.2",
+    "typescript": "^5.9.3"
+  }
+}

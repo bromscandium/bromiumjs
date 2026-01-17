@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@bromium/runtime",
+    "paths": {
+      "@bromium/core": ["./packages/core/src"],
+      "@bromium/runtime": ["./packages/runtime/src"],
+      "@bromium/router": ["./packages/router/src"],
+      "@bromium/vite-plugin": ["./packages/vite-plugin/src"],
+      "bromium": ["./bromium/src"]
+    }
+  },
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/runtime" },
+    { "path": "./packages/router" },
+    { "path": "./packages/vite-plugin" },
+    { "path": "./bromium" }
+  ]
+}
