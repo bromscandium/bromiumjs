@@ -33,7 +33,7 @@ export {
   type ShallowRef,
   type EffectFn,
   type EffectOptions,
-} from '@bromium/core';
+} from '@bromscandium/core';
 
 // Runtime - JSX and rendering
 export {
@@ -76,7 +76,7 @@ export {
   type ComponentInstance,
   type JSXElement,
   type AppConfig,
-} from '@bromium/runtime';
+} from '@bromscandium/runtime';
 
 // Router
 export {
@@ -106,4 +106,4 @@ export {
   type NavigationTarget,
   type NavigationGuard,
   type NavigationHook,
-} from '@bromium/router';
+} from '@bromscandium/router';

@@ -1,6 +1,6 @@
 /**
  * JSX Runtime for TypeScript/Vite.
- * Configure in tsconfig.json: "jsx": "react-jsx", "jsxImportSource": "@bromium/runtime"
+ * Configure in tsconfig.json: "jsx": "react-jsx", "jsxImportSource": "@bromscandium/runtime"
  * @module
  */
 

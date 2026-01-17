@@ -1,6 +1,6 @@
 {
   "name": "bromium",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BromiumJS - A modern JavaScript framework with proxy-based reactivity, JSX, and file-based routing",
   "type": "module",
   "main": "./dist/index.js",
@@ -33,9 +33,9 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@bromium/core": "^1.0.0",
-    "@bromium/runtime": "^1.0.0",
-    "@bromium/router": "^1.0.0"
+    "@bromscandium/core": "^1.0.0",
+    "@bromscandium/runtime": "^1.0.0",
+    "@bromscandium/router": "^1.0.0"
   },
   "peerDependencies": {
     "vite": "^5.0.0 || ^6.0.0"
@@ -46,7 +46,7 @@
     }
   },
   "devDependencies": {
-    "@bromium/vite-plugin": "^1.0.0",
+    "@bromscandium/vite-plugin": "^1.0.0",
     "typescript": "^5.3.0"
   },
   "keywords": [
@@ -57,6 +57,15 @@
     "jsx",
     "frontend"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "bromscandium",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bromscandium/bromiumjs.git",
+    "directory": "bromium"
+  },
+  "homepage": "https://github.com/bromscandium/bromiumjs#readme",
+  "bugs": {
+    "url": "https://github.com/bromscandium/bromiumjs/issues"
+  }
 }

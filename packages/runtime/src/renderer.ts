@@ -4,7 +4,7 @@
  */
 
 import { VNode, Fragment, Text, ComponentFunction, ComponentInstance } from './vnode.js';
-import { effect, cleanup, EffectFn } from '@bromium/core';
+import { effect, cleanup, EffectFn } from '@bromscandium/core';
 import { setCurrentInstance, invokeLifecycleHooks } from './lifecycle.js';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';

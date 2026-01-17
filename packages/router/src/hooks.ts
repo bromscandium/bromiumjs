@@ -3,7 +3,7 @@
  * @module
  */
 
-import { computed, ComputedRef, Ref } from '@bromium/core';
+import { computed, ComputedRef, Ref } from '@bromscandium/core';
 import { getRouter, Router, RouteLocation } from './router.js';
 
 /**

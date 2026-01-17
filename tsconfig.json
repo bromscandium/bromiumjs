@@ -10,12 +10,12 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react-jsx",
-    "jsxImportSource": "@bromium/runtime",
+    "jsxImportSource": "@bromscandium/runtime",
     "paths": {
-      "@bromium/core": ["./packages/core/src"],
-      "@bromium/runtime": ["./packages/runtime/src"],
-      "@bromium/router": ["./packages/router/src"],
-      "@bromium/vite-plugin": ["./packages/vite-plugin/src"],
+      "@bromscandium/core": ["./packages/core/src"],
+      "@bromscandium/runtime": ["./packages/runtime/src"],
+      "@bromscandium/router": ["./packages/router/src"],
+      "@bromscandium/vite-plugin": ["./packages/vite-plugin/src"],
       "bromium": ["./bromium/src"]
     }
   },

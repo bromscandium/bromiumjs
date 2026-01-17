@@ -3,8 +3,8 @@
  * @module
  */
 
-import {ref} from '@bromium/core';
-import {jsx, VNode} from '@bromium/runtime';
+import {ref} from '@bromscandium/core';
+import {jsx, VNode} from '@bromscandium/runtime';
 import {useRoute, useRouter} from './hooks.js';
 import {NavigationTarget} from './router.js';
 

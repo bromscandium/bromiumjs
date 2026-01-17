@@ -3,7 +3,7 @@
  * @module
  */
 
-import { ref, Ref } from '@bromium/core';
+import { ref, Ref } from '@bromscandium/core';
 
 /**
  * A route configuration object.

@@ -49,7 +49,7 @@ export interface BromiumPluginOptions {
  * ```ts
  * // vite.config.ts
  * import { defineConfig } from 'vite';
- * import { bromiumPlugin } from '@bromium/vite-plugin';
+ * import { bromiumPlugin } from '@bromscandium/vite-plugin';
  *
  * export default defineConfig({
  *   plugins: [

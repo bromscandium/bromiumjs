@@ -1,7 +1,19 @@
 {
-  "name": "@bromium/vite-plugin",
+  "name": "@bromscandium/vite-plugin",
   "version": "1.0.0",
   "description": "Vite plugin for BromiumJS file-based routing",
+  "author": "bromscandium",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bromscandium/bromiumjs.git",
+    "directory": "packages/vite-plugin"
+  },
+  "homepage": "https://github.com/bromscandium/bromiumjs#readme",
+  "bugs": {
+    "url": "https://github.com/bromscandium/bromiumjs/issues"
+  },
+  "keywords": ["bromium", "bromiumjs", "vite", "vite-plugin", "file-based-routing"],
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
