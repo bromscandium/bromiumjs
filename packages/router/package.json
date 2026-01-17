@@ -1,6 +1,6 @@
 {
   "name": "@bromscandium/router",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "BromiumJS router with file-based routing support",
   "author": "bromscandium",
   "license": "MIT",
