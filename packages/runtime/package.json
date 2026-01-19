@@ -1,5 +1,5 @@
 {
-  "name": "@bromium/runtime",
+  "name": "@bromscandium/runtime",
   "version": "1.0.3",
   "description": "BromiumJS runtime - JSX and rendering",
   "type": "module",
@@ -29,7 +29,7 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@bromium/core": "^1.0.3"
+    "@bromscandium/core": "^1.0.3"
   },
   "devDependencies": {
     "typescript": "^5.9.3"

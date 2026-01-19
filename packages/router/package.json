@@ -1,5 +1,5 @@
 {
-  "name": "@bromium/router",
+  "name": "@bromscandium/router",
   "version": "1.0.3",
   "description": "BromiumJS router with file-based routing support",
   "type": "module",
@@ -21,8 +21,8 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@bromium/core": "^1.0.3",
-    "@bromium/runtime": "^1.0.3"
+    "@bromscandium/core": "^1.0.3",
+    "@bromscandium/runtime": "^1.0.3"
   },
   "devDependencies": {
     "typescript": "^5.9.3"

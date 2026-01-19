@@ -1,5 +1,5 @@
 {
-  "name": "@bromium/vite-plugin",
+  "name": "@bromscandium/vite-plugin",
   "version": "1.0.3",
   "description": "Vite plugin for BromiumJS file-based routing",
   "author": "bromscandium",

@@ -1,5 +1,5 @@
 {
-  "name": "@bromium/core",
+  "name": "@bromscandium/core",
   "version": "1.0.3",
   "description": "BromiumJS core reactivity system",
   "type": "module",
