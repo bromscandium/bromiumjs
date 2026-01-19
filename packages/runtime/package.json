@@ -1,19 +1,7 @@
 {
-  "name": "@bromscandium/runtime",
-  "version": "1.0.2",
+  "name": "@bromium/runtime",
+  "version": "1.0.3",
   "description": "BromiumJS runtime - JSX and rendering",
-  "author": "bromscandium",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bromscandium/bromiumjs.git",
-    "directory": "packages/runtime"
-  },
-  "homepage": "https://github.com/bromscandium/bromiumjs#readme",
-  "bugs": {
-    "url": "https://github.com/bromscandium/bromiumjs/issues"
-  },
-  "keywords": ["bromium", "bromiumjs", "jsx", "runtime", "rendering"],
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -41,7 +29,7 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@bromscandium/core": "^1.0.0"
+    "@bromium/core": "^1.0.3"
   },
   "devDependencies": {
     "typescript": "^5.9.3"

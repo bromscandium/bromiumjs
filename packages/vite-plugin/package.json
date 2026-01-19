@@ -1,6 +1,6 @@
 {
-  "name": "@bromscandium/vite-plugin",
-  "version": "1.0.2",
+  "name": "@bromium/vite-plugin",
+  "version": "1.0.3",
   "description": "Vite plugin for BromiumJS file-based routing",
   "author": "bromscandium",
   "license": "MIT",
@@ -33,7 +33,7 @@
     "dev": "tsc --watch"
   },
   "peerDependencies": {
-    "vite": "^5.0.0 || ^6.0.0"
+    "vite": "^5.0.0 || ^6.0.0 || ^7.0.0"
   },
   "devDependencies": {
     "@types/node": "^25.0.9",
