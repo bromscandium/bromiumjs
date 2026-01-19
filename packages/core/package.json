@@ -1,7 +1,19 @@
 {
   "name": "@bromscandium/core",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "BromiumJS core reactivity system",
+  "author": "bromscandium",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bromscandium/bromiumjs.git",
+    "directory": "packages/core"
+  },
+  "homepage": "https://github.com/bromscandium/bromiumjs#readme",
+  "bugs": {
+    "url": "https://github.com/bromscandium/bromiumjs/issues"
+  },
+  "keywords": ["bromium", "bromiumjs", "reactivity", "proxy", "signals"],
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",

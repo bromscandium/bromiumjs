@@ -1,7 +1,19 @@
 {
   "name": "@bromscandium/router",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "BromiumJS router with file-based routing support",
+  "author": "bromscandium",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bromscandium/bromiumjs.git",
+    "directory": "packages/router"
+  },
+  "homepage": "https://github.com/bromscandium/bromiumjs#readme",
+  "bugs": {
+    "url": "https://github.com/bromscandium/bromiumjs/issues"
+  },
+  "keywords": ["bromium", "bromiumjs", "router", "file-based-routing", "spa"],
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -21,8 +33,8 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@bromscandium/core": "^1.0.3",
-    "@bromscandium/runtime": "^1.0.3"
+    "@bromscandium/core": "^1.0.0",
+    "@bromscandium/runtime": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^5.9.3"

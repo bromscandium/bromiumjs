@@ -1,6 +1,6 @@
 {
   "name": "bromiumjs-monorepo",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "private": true,
   "description": "BromiumJS Framework Monorepo",
   "type": "module",
@@ -30,4 +30,3 @@
     "typescript": "^5.9.3"
   }
 }
-
