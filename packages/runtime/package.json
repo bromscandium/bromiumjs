@@ -1,6 +1,6 @@
 {
   "name": "@bromscandium/runtime",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "BromiumJS runtime - JSX and rendering",
   "author": "bromscandium",
   "license": "MIT",

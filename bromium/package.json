@@ -1,6 +1,6 @@
 {
   "name": "bromium",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "BromiumJS - A modern JavaScript framework with proxy-based reactivity, JSX, and file-based routing",
   "type": "module",
   "main": "./dist/index.js",
